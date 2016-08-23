@@ -11,6 +11,9 @@ import spock.lang.Specification
  * @author bryn.lloyd
  *
  */
+
+// @Unroll can be on class level here too!
+// It then acts on each test that doesn't have @Unroll already.
 class GivenWhenThenTest extends Specification {
 
     def 'should sort list of numbers'(){
